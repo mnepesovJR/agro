@@ -1,0 +1,48 @@
+.bg-image-1 {
+    background-image: url('../img/banner-bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+.bg-image-2 {
+    background-image: url('../img/cvcv-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bg-image-3 {
+    background-image: url('../img/cvcv-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image-4 {
+    background-image: url('../img/gfgfggfggg-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-shadow {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.box {
+    background-color: #f9f9f9;
+    
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.box:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+}
