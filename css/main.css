@@ -7,6 +7,15 @@
     background-size: cover;
 }
 
+.bg-image-intre3 {
+    background-image: url("../img/nagys\ 1_5@300x-8.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 .bg-shadow {
     background-color: rgba(20, 14, 43, 0.5);
 }
