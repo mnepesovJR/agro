@@ -43,6 +43,7 @@
             </div>
         </div>
     </div>
+
     <nav class="navbar navbar-expand-md navbar-light bg-green2" aria-label="Navbar">
         <div class="container-lg">
             <a class="navbar-brand fw-bold text-white" href="#"></a> <img src="img/ahalagroWhiteLogo.svg" alt=""
@@ -60,18 +61,22 @@
                         <a class="text-white nav-link fw-semibold me-lg-4 link-dark" href="about.html">O Нас</a>
                     </li>
                     <li class="nav-item">
-                        <a class="text-white nav-link fw-semibold me-lg-4 link-dark" href="products.html">Hаши продукты</a>
+                        <a class="text-white nav-link fw-semibold me-lg-4 link-dark" href="products.html">Hаши
+                            продукты</a>
                     </li>
                     <li class="nav-item">
                         <a class="text-white nav-link fw-semibold me-lg-4 link-dark" href="#">Контакты</a>
                     </li>
-                    <button class="dropdown-button btn bi-globe text-white fw-semibold mx-5">
-                        <div class="dropdown-menu">
-                            <a href="#">TM</a>
-                            <a href="#">ENG</a>
-                            <a href="#">RUS</a>
-                        </div>
-                    </button>
+                </ul>
+            </div>
+            <div class="dropdown" data-bs-theme="light">
+                <button class="btn bi-globe text-white" type="button" id="dropdownMenuButtonLight"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
+                    <li><a class="dropdown-item active" href="#">TM</a></li>
+                    <li><a class="dropdown-item" href="#">RUS</a></li>
+                    <li><a class="dropdown-item" href="#">ENG</a></li>
                 </ul>
             </div>
         </div>
@@ -360,6 +365,7 @@
                 once: true,
             });
         </script>
+
 </body>
 
 </html>

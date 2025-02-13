@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="js/bootstrap.bundle.min.js.map">
     <link rel="stylesheet" href="css/icons/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/splide.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -43,6 +42,7 @@
             </div>
         </div>
     </div>
+
     <nav class="navbar navbar-expand-md navbar-light bg-green2" aria-label="Navbar">
         <div class="container-lg">
             <a class="navbar-brand fw-bold text-white" href="#"></a> <img src="img/ahalagroWhiteLogo.svg" alt=""
@@ -66,13 +66,16 @@
                     <li class="nav-item">
                         <a class="text-white nav-link fw-semibold me-lg-4 link-dark" href="#">Контакты</a>
                     </li>
-                    <button class="dropdown-button btn bi-globe text-white fw-semibold mx-5">
-                        <div class="dropdown-menu">
-                            <a href="#">TM</a>
-                            <a href="#">ENG</a>
-                            <a href="#">RUS</a>
-                        </div>
-                    </button>
+                </ul>
+            </div>
+            <div class="dropdown" data-bs-theme="light">
+                <button class="btn bi-globe text-white" type="button" id="dropdownMenuButtonLight"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
+                    <li><a class="dropdown-item active" href="#">TM</a></li>
+                    <li><a class="dropdown-item" href="#">RUS</a></li>
+                    <li><a class="dropdown-item" href="#">ENG</a></li>
                 </ul>
             </div>
         </div>
